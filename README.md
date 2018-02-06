@@ -1,26 +1,26 @@
-# Тест для связки jest + puppeteer
+# РўРµСЃС‚ РґР»СЏ СЃРІСЏР·РєРё jest + puppeteer
 
-### Запуск всех тестов:
+### Р—Р°РїСѓСЃРє РІСЃРµС… С‚РµСЃС‚РѕРІ:
 ```sh
 $ cd authtest
 $ npm test
 ```
 
-### Запуск одного теста:
+### Р—Р°РїСѓСЃРє РѕРґРЅРѕРіРѕ С‚РµСЃС‚Р°:
 - jest auth.test.js
 
-### Два варианта запуска:
+### Р”РІР° РІР°СЂРёР°РЅС‚Р° Р·Р°РїСѓСЃРєР°:
 
 - UI
 `browser = await puppeteer.launch({headless: false});`
-- headless режим
+- headless СЂРµР¶РёРј
 `browser = await puppeteer.launch({})`
 
-## Подготовка окружения
-Устанавливаем ноду
+## РџРѕРґРіРѕС‚РѕРІРєР° РѕРєСЂСѓР¶РµРЅРёСЏ
+РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅРѕРґСѓ
 [Node.js](https://nodejs.org/en/download/)
 
-Устанавливаем jest и puppeteer
+РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј jest Рё puppeteer
 ```sh
 $ npm i jest puppeter
 ```
