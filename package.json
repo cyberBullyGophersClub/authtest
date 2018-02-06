@@ -1,0 +1,23 @@
+{
+  "name": "gravdemauth",
+  "version": "1.0.0",
+  "description": "Auth test",
+  "main": "auth.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberBullyGophersClub/authtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberBullyGophersClub/authtest/issues"
+  },
+  "homepage": "https://github.com/cyberBullyGophersClub/authtest#readme",
+  "dependencies": {
+    "jest": "^22.1.2",
+    "puppeteer": "^1.0.0"
+  }
+}
